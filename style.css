@@ -23,6 +23,11 @@ h1
   font-size: 45px;
 }
 
+h2
+{
+  font-size: 55px;
+}
+
 ul
 {
   list-style: none;
@@ -76,4 +81,40 @@ header nav ul li a
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 20px;
+}
+
+/* MAIN-IMAGE */
+
+#main-image
+{
+  height: 580px;
+  background: url("images/main.jpg") no-repeat center;
+}
+
+#main-image h2
+{
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+  margin-bottom: 20px;
+}
+
+.button-1
+{
+  display: block;
+  width: 120px;
+  height: 50px;
+  background: #ff7a00;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.button-1:hover
+{
+  background: #02b8dd;
 }
